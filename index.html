@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MOONKZ — Monkey to the Moon</title>
+  <meta name="description" content="MOONKZ is a Solana meme coin. No utility. No roadmap. Just vibes. Monkey to the Moon." />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0b0b;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+    header {
+      text-align: center;
+      padding: 100px 20px;
+      background: radial-gradient(circle at top, #1a1a1a, #000000);
+    }
+    header h1 {
+      font-size: 64px;
+      margin-bottom: 10px;
+      letter-spacing: 4px;
+    }
+    header p {
+      font-size: 22px;
+      opacity: 0.9;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 34px;
+      border-radius: 50px;
+      background: #f5c542;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+    section {
+      margin-top: 80px;
+    }
+    h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #141414;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #f5c542;
+    }
+    footer {
+      text-align: center;
+      padding: 60px 20px;
+      opacity: 0.6;
+      font-size: 14px;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 80px;
+    }
+    .hero {
+      position: relative;
+      z-index: 2;
+    }
+    .logo {
+      width: 140px;
+      margin-bottom: 20px;
+      animation: float 4s ease-in-out infinite;
+    }
+    .tagline {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    .subtag {
+      font-size: 18px;
+      opacity: 0.85;
+    }
+    .moon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 380px;
+      height: 380px;
+      background: radial-gradient(circle, #ffd966 0%, #f5c542 60%, transparent 70%);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      filter: blur(2px);
+      animation: glow 3s ease-in-out infinite;
+      z-index: 1;
+    }
+    @keyframes glow {
+      0% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); }
+      50% { opacity: 0.9; transform: translate(-50%, -50%) scale(1.05); }
+      100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); }
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+      100% { transform: translateY(0); }
+    }
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="hero">
+      <img src="moonkz-logo.png" alt="MOONKZ Logo" class="logo" />
+      <h1>MOONKZ</h1>
+      <p class="tagline">Monkey to the Moon 🐒🌕</p>
+      <p class="subtag">No Brain. Just Moon.</p>
+      <a href="#" class="btn">Buy on Pump.fun</a>
+    </div>
+    <div class="moon"></div>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>What is MOONKZ?</h2>
+      <p>
+        MOONKZ is a community-driven Solana meme coin built on vibes, memes, and pure degeneracy.
+        No utility. No roadmap. No promises. Just a monkey in a helmet aiming straight for the moon.
+      </p>
+    </section>
+
+    <section>
+      <h2>Why MOONKZ?</h2>
+      <div class="features">
+        <div class="card">
+          <h3>⚡ Solana Powered</h3>
+          <p>Fast transactions and ultra-low fees.</p>
+        </div>
+        <div class="card">
+          <h3>🐒 Strong Meme</h3>
+          <p>Monkey astronaut. Simple. Viral.</p>
+        </div>
+        <div class="card">
+          <h3>🌍 Community First</h3>
+          <p>Fair launch. No VC. No insiders.</p>
+        </div>
+        <div class="card">
+          <h3>🔥 Pure Vibes</h3>
+          <p>No fake promises. Just meme culture.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>The Mission</h2>
+      <p>
+        There is only one mission: <strong>Monkey → Moon</strong>.
+        Helmet on. Moon ahead. No detours.
+      </p>
+    </section>
+
+    <section>
+      <h2>Token Info</h2>
+      <div class="features">
+        <div class="card"><strong>Name:</strong> MOONKZ</div>
+        <div class="card"><strong>Ticker:</strong> $MOONKZ</div>
+        <div class="card"><strong>Network:</strong> Solana</div>
+        <div class="card"><strong>Launch:</strong> Pump.fun Fair Launch</div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Ready to Send It?</h2>
+      <p>Join the monkeys and enjoy the ride.</p>
+      <a href="#" class="btn">Join the Community</a>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>
+      MOONKZ is a meme coin with no intrinsic value or utility.
+      This project is for entertainment purposes only.
+    </p>
+    <p>© 2025 MOONKZ</p>
+  </footer>
+
+</body>
+</html>
